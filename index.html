@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Horizontal Scroll</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="scroll-container" id="latest-movies">
+        <div class="scroll-box">1</div>
+        <div class="scroll-box">2</div>
+        <div class="scroll-box">3</div>
+        <div class="scroll-box">4</div>
+        <div class="scroll-box">5</div>
+        <div class="scroll-box">6</div>
+        <div class="scroll-box">7</div>
+        <div class="scroll-box">8</div>
+        <div class="scroll-box">9</div>
+        <div class="scroll-box">10</div>
+        <div class="scroll-box">11</div>
+        <div class="scroll-box">12</div>
+      </div>
+      <div class="scroll-controls">
+        <button
+          class="scroll-control"
+          data-scroll-direction="left"
+          data-scroll-orientation="horizontal"
+          data-scroll-target="latest-movies"
+        >
+          &lt;
+        </button>
+        <button
+          class="scroll-control"
+          data-scroll-direction="right"
+          data-scroll-orientation="horizontal"
+          data-scroll-target="latest-movies"
+        >
+          &gt;
+        </button>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
